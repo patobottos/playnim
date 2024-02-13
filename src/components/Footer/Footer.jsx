@@ -24,7 +24,7 @@ const Footer = () => {
             Pablo Monteserín
           </a>
         </span>
-        | <span className="city">Barcelona | 2023 </span>
+        | <span className="city">Barcelona | 2024 </span>
       </p>
     </FooterStyled>
   );
