@@ -11,6 +11,21 @@ export const FooterStyled = styled.div`
   font-size: 0.8rem;
   letter-spacing: 0.06rem;
 
+  .author {
+    padding: 0 5px;
+    color: white;
+
+    a {
+      color: inherit;
+      padding-left: 5px;
+      text-decoration: none !important;
+
+      :hover {
+        cursor: pointer;
+      }
+    }
+  }
+
   .mentor {
     padding: 0 5px;
     color: yellow;
@@ -27,6 +42,6 @@ export const FooterStyled = styled.div`
   }
 
   .city {
-    color: #D6A6E8;
+    color: #d6a6e8;
   }
-`
+`;

@@ -4,7 +4,16 @@ const Footer = () => {
   return (
     <FooterStyled>
       <p>
-        Pato Bottos for IT Academy |
+        <span className="author">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://patobottos.vercel.app/"
+          >
+            Pato Bottos
+          </a>
+          {} for IT Academy |{}
+        </span>
         <span className="mentor">
           Mentoring:
           <a
